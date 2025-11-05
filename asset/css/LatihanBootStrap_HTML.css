@@ -10,6 +10,8 @@ body {
     background-color: #343a40;
     color: white;
     padding: 15px 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .navbar .container {
@@ -26,17 +28,21 @@ body {
 .navbar .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar .nav-links a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    transition: color 0.3s;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .navbar .nav-links a:hover {
-    color: #ffc107;
+    color: #0d6efd;
 }
 
 /* Hero Section */
@@ -105,11 +111,12 @@ body {
 }
 
 .navbar-brand img {
-  vertical-align: middle;
-  margin-right: 8px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
+
 .navbar-brand {
-  display: flex;
-  align-items: center;
-  color:#f9f9f9 !important;
+    display: flex;
+    align-items: center;
+    color: #f9f9f9 !important;
 }

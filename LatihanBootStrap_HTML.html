@@ -16,21 +16,38 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
+    <nav class="navbar bg-dark">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Logo dan Judul -->
+            <a class="navbar-brand d-flex align-items-center text-white" href="#">
                 <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30"
                     height="24" class="me-2">
                 <span>MyBootstrap</span>
             </a>
-            <ul class="nav-links align-items-center">
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Layanan</a></li>
-                <li><a href="#">Kontak</a></li>
+
+            <!-- Menu Navigasi -->
+            <ul class="nav-links d-flex align-items-center mb-0">
+                <li><a href="#" class="mx-3 text-decoration-none">Beranda</a></li>
+                <li><a href="#" class="mx-3 text-decoration-none">Tentang</a></li>
+
+                <!-- Dropdown -->
+                <li class="dropdown mx-3">
+                    <a class="text-decoration-none dropdown-toggle" href="#" role="button"
+                        id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Layanan
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Desain Web</a></li>
+                        <li><a class="dropdown-item" href="#">Pengembangan Aplikasi</a></li>
+                        <li><a class="dropdown-item" href="#">Konsultasi IT</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#" class="mx-3 text-decoration-none">Kontak</a></li>
             </ul>
         </div>
     </nav>
+
 
     <!-- CAROUSEL SECTION -->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
