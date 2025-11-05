@@ -32,8 +32,8 @@
 
                 <!-- Dropdown -->
                 <li class="dropdown mx-3">
-                    <a class="text-decoration-none dropdown-toggle" href="#" role="button"
-                        id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="text-decoration-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Layanan
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
@@ -42,7 +42,6 @@
                         <li><a class="dropdown-item" href="#">Konsultasi IT</a></li>
                     </ul>
                 </li>
-
                 <li><a href="#" class="mx-3 text-decoration-none">Kontak</a></li>
             </ul>
         </div>
@@ -77,39 +76,66 @@
     </div>
 
     <!-- HERO SECTION -->
-    <header class="hero d-flex align-items-center justify-content-center text-center">
-        <div>
-            <h2>Selamat Datang di Latihan Bootstrap</h2>
-            <p>Belajar membuat layout responsif menggunakan Bootstrap Grid</p>
-            <a href="#" class="btn-utama">Mulai Sekarang</a>
+    <header class="hero d-flex align-items-center justify-content-center text-center position-relative">
+        <div class="hero-content">
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo" width="90"
+                class="mb-3 animate-fade">
+            <h2 class="animate-up">Selamat Datang di <span class="highlight">Latihan Bootstrap</span> by MyBootstrap
+            </h2>
+            <p class="animate-up-delay">Pelajari dasar pembuatan layout responsif menggunakan <strong>Bootstrap Grid
+                    System</strong></p>
+            <a href="#" class="btn-utama animate-fade mt-3">Mulai Sekarang!</a>
         </div>
     </header>
+
 
     <!-- CONTENT SECTION -->
     <section class="container konten">
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <h3>Kolom 1</h3>
-                    <p>Gunakan grid system untuk membagi halaman dengan mudah.</p>
+                    <h3>Bootstrap</h3>
+                    <p>Pelajari Framework CSS populer yang memudahkan pembuatan tampilan web modern, ceoat, dan
+                        responsif!</p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card">
-                    <h3>Kolom 2</h3>
-                    <p>Bootstrap grid terdiri dari 12 kolom yang fleksibel.</p>
+                    <h3>Struktur Grid Bootstrap</h3>
+                    <p>Bootstrap menyediakan sistem grid 12 kolom yang fleksibel untuk mengatur tata letak halaman
+                        dengan mudah di berbagai ukuran layar.</p>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card">
-                    <h3>Kolom 3</h3>
-                    <p>Setiap kolom dapat menyesuaikan ukuran layar dengan otomatis.</p>
+                    <h3>Komponen Siap Pakai</h3>
+                    <p>Gunakan berbagai komponen seperti tombol, navbar, kartu, dan form untuk membangun UI/UX dengan
+                        cepat tanpa menulis banyak CSS.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <div class="section-title-button">Saran untuk Kami</div>
+            </div>
+            <div class="contact-form">
+                <div class="form-row">
+                    <input type="text" class="form-input" placeholder="Nama anda">
+                    <input type="email" class="form-input" placeholder="Email anda">
+                </div>
+                <textarea class="form-textarea" placeholder="Pesan"></textarea>
+                <div class="form-button-wrapper">
+                    <button class="form-button">Kirim</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer">
